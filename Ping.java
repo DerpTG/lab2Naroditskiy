@@ -1,3 +1,13 @@
+/** Project: Lab2 Network Analyzer
+ * Purpose Details: To perform network functions via Java
+ * Course: IST 242
+ * Author: Felix Naroditskiy
+ * Date Developed: 1/28/2024
+ * Last Date Changed: 1/28/2024
+ * Rev: 1.0
+
+ */
+
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
