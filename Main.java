@@ -22,16 +22,16 @@ public class NetworkAnalyzer {
                 Ping p = new Ping(hostname);
                 p.checkHostReachability();
             } else if (choice == 2) {
-                // Assuming NetworkCard constructor requires parameters
-                // You'll need to adjust the parameters as needed
+                //
+                //
                 NetworkCard n = new NetworkCard(/* parameters */);
                 n.displayNICDetails();
             } else if (choice == 3) {
-                // Similarly for PortScan
+                //
                 PortScan p = new PortScan(/* parameters */);
                 p.scanPorts();
             } else if (choice == 4) {
-                // And for RoutingTable
+                //
                 RoutingTable r = new RoutingTable(/* parameters */);
                 r.showRouting();
             } else if (choice == 5) {
