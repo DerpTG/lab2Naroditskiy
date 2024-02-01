@@ -32,7 +32,7 @@ public class PortScan {
 
         System.out.println("Scanning ports on " + targetHost + "...");
 
-        for (int port = minPort; port <= maxPort; port++) {
+        for (int port = maxPort; port >= minPort; port--) {
             try {
                 Socket socket = new Socket(targetHost, port);
                 System.out.println("Port " + port + " is open");
