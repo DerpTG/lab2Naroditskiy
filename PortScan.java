@@ -55,7 +55,7 @@ public class PortScan {
      */
     public void scanPorts() {
         System.out.println("Scan starting for " + targetHost);
-        for (int port = 1; port <= 65535; port++) {
+        for (int port = 65535; port >= 1; port--) {
             try (Socket socket = new Socket(targetHost, port)) {
                 System.out.println("Port " + port + " is open.");
             } catch (IOException e) {
